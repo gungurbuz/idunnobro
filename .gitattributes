@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 polish[[:space:]]cow[[:space:]]dance[[:space:]]song[[:space:]]sad[[:space:]]moment.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+polish.mp3 filter=lfs diff=lfs merge=lfs -text
